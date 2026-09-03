@@ -1,6 +1,6 @@
-# ESP32-S3 Documentation
+# ROS-Robot-Control-Board Documentation
 
-This repository contains the ESP32-S3 VitePress documentation site. The
+This repository contains the ROS-Robot-Control-Board VitePress documentation site. The
 documentation source files are Markdown files under `docs/docs/`.
 
 ## Local development
@@ -19,7 +19,7 @@ npm run docs:build
 npm run docs:stage-main
 ```
 
-The staged production files are generated in `projects/ESP32-S3/en/latest/`.
+The staged production files are generated in `projects/ROS-Robot-Control-Board/en/latest/`.
 
 ## GitHub Pages deployment
 
@@ -30,11 +30,11 @@ The build artifacts under `projects/` are committed to the repository. Open
 The GitHub Pages direct URL is:
 
 ```text
-https://hiwonder-docs.github.io/ESP32-S3-vite/projects/ESP32-S3/en/latest/
+https://hiwonder-docs.github.io/ROS-Robot-Control-Board-vite/projects/ROS-Robot-Control-Board/en/latest/
 ```
 
 The public-facing URL (via the baota Nginx reverse proxy) is:
 
 ```text
-https://wiki-test.hiwonder.com/projects/ESP32-S3/en/latest/
+https://wiki-test.hiwonder.com/projects/ROS-Robot-Control-Board/en/latest/
 ```
